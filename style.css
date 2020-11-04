@@ -50,11 +50,7 @@ ul {
     padding: 10px 35px;
 }
 
-input {
-    font-family: "Rubik", sans-serif;
-}
-
-textarea {
+.form-textarea {
     width: 515px;
     height: 100px;
     padding: 20px 30px;
@@ -110,6 +106,16 @@ textarea {
 
     font-size: 15px;
     font-weight: 500;
+}
+
+.main-navigation li{
+  position: relative;
+  transform: scale(1);
+  transition: transform 1.1s;
+}
+
+.main-navigation li:hover {
+    transform: scale(1.1);
 }
 
 .contacts-description-information {
@@ -409,8 +415,15 @@ a {
     text-decoration: none;
 }
 
+.about-service li {
+  position: relative;
+  transform: scale(1);
+  transition: transform 1.1s;
+}
+
 .about-service li:hover {
     background-color: #082362;
+    transform: scale(1.1);
     color: #ffffff;
     fill: #fff;
 }
@@ -598,6 +611,16 @@ table {
     background: no-repeat;
 }
 
+.team-item {
+  position: relative;
+  transform: scale(0.9);
+  transition: transform 1.1s;
+}
+
+.team-item:hover {
+   transform: scale(1);
+}
+
 .button-team {
     background-color: #0c245d;
     width: 135px; 
@@ -716,9 +739,21 @@ table {
     color: #6b6b6b;
 }
 
+.happy-moments-data li {
+  position: relative;
+  transform: scale(1);
+  transition: transform 1.1s;
+}
+
+.happy-moments-data li:hover {
+    color: #0c245d ;
+    transform: scale(1.2);
+}
+
 .happy-moments-data a:hover {
     color: #0c245d ;
 }
+
 
 .happy-moments-discription {
     display: flex;
@@ -765,6 +800,16 @@ table {
 .photos-table img {
     margin-right: 30px;
     margin-bottom: 30px;
+}
+
+.photos-table img{
+  position: relative;
+  transform: scale(1);
+  transition: transform 1.1s;
+}
+
+.photos-table img:hover {
+    transform: scale(1.1);
 }
 
 .cruth {
