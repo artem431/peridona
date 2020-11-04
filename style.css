@@ -127,7 +127,6 @@ textarea {
     padding-top: 250px; 
 
     background: url("img/phone.jpg") center;
-    max-width: 1920px;
     left: 50%;
     transform: translate(-50%, 0);
 }
@@ -295,12 +294,8 @@ textarea {
     background-color: #082362;
     color: white;
     height: 567px;
-    max-width: 1920px;
     background-image: url("img/Polygon 1 copy 2.jpg");
-    background-repeat: no-repeat;
-    background-position: -150px 0px;
-    left: 50%;
-    transform: translate(-50%, 0);
+    background-repeat: no-repeat;      
 }
 
 .work-information {
@@ -356,9 +351,9 @@ textarea {
 }
 
 .video {
-    position: absolute;
+    position: relative;
     margin-left: 590px;
-    margin-top: -565px;
+    margin-top: -566px;
     background-size: cover;
     width: 50%;
 }
@@ -367,11 +362,10 @@ textarea {
     position: relative;
     background-color: #f5f5f5;
     margin-top: -20px;
-    background: url("img/Ellipse2.png") center;
+    background-image: url("img/Ellipse2.png");
     background-repeat: no-repeat;
-    left: 50%;
-    transform: translate(-50%, 0);
-}
+    background-position: center;
+}   
 
 .service {
     padding: 130px 15px 20px 0px;
@@ -511,13 +505,13 @@ a {
 
 .achievements {
     position: relative;
-    margin-top: -25px;
+    margin-top: 0px;
     color: white;
     height: 325px;
-    background: url("img/Rectangle 38 copy.jpg") center;
-    background-repeat: no-repeat;
-    left: 50%;
-    transform: translate(-50%, 0);
+    background-image: url("img/Rectangle 38 copy.jpg");
+    background-position: center;
+    width: 100%;
+  
 }
 
 table {
@@ -620,10 +614,10 @@ table {
     color: white;
     background-image: url("img/Rectangle 48 copy 2.jpg");
     background-repeat: no-repeat;
-    max-width: 1920px;
     height: 560px;  
     left: 50%;
     transform: translate(-50%, 0);
+    
 }
 
 .news-information{
@@ -782,7 +776,6 @@ table {
 .map {
     position: relative;
     margin-top: 0px;
-    max-width: 1920px;
     left: 50%;
     transform: translate(-50%, 0);
 }
@@ -798,7 +791,6 @@ table {
     margin-top: -10px;
     height: 360px;
     margin-left: 0px;
-    max-width: 1920px;
     left: 50%;
     transform: translate(-50%, 0);
 }
@@ -897,7 +889,6 @@ table {
     color: #949494;
     margin: 0;
     padding: 15px 0px;
-    max-width: 1920px;
     left: 50%;
     transform: translate(-50%, 0);
 }
